@@ -123,3 +123,36 @@ color: #474747;
 .about-info .info-card h4{
     font-size: 20px;
 }
+#skills{
+    padding-top: 130px;
+}
+#skills .skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin:0 auto ;
+
+}
+#skills .skills-container .skill-box{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-box .skill-card{
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px;
+}
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill-card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
